@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Customizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="upperbody">
+
+        <h1>Customize CSS With <span class="h1">Ease</span></h1>
+        <div class="control">
+        <label for="padding">Padding</label>
+        <input type="range" name="padding" min="10" max="200" value="10" data-sizing="px">
+        
+        <label for="margin">Margin</label>
+        <input type="range" name="margin" min="10" max="200" value="10" data-sizing="px">
+        
+        <label for="radius">Border Radius</label>
+        <input type="range" name="radius" min="0" max="100" value="10" data-sizing="px">
+        
+        <label for="height">Height</label>
+        <input type="range" name="height" min="10" max="500" value="10" data-sizing="px">
+        
+        <label for="width">Width</label>
+        <input type="range" name="width" min="10" max="500" value="10" data-sizing="px">
+        
+        <label for="background-color">Backgroung-Color</label>
+        <input type="color" name="background-color" value="#ffffff">
+        
+        <label for="color">Color</label>
+        <input type="color" name="color" value="#ffffff">
+    </div>
+</div>
+    <div class="body">
+        <div class="output"></div>
+        <script src="syntax.js"></script>
+    </div>
+</body>
+</html>
